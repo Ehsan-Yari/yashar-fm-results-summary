@@ -13,96 +13,100 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body class="font-hanken-grostek">
-        <main class="mx-auto max-w-xs">
+        <main
+            class="mx-auto max-w-2xl overflow-hidden md:mt-24 md:flex md:rounded-3xl"
+        >
             <section
-                class="bg-linear-to-b from-light-slate-blue to-persian-blue flex flex-col items-center justify-center gap-y-5 rounded-b-4xl px-12 py-4 text-white"
+                class="flex flex-col items-center justify-center gap-y-5 rounded-b-3xl bg-indigo-800 px-12 py-4 text-white md:rounded-3xl md:py-18"
             >
                 <h2 class="text-white/60">Your Result</h2>
                 <div
-                    class="bg-linear-to-b from-[#4B24CD] to-[#4835F1] flex size-28 flex-col items-center justify-center gap-2 rounded-full"
+                    class="flex size-28 flex-col items-center justify-center gap-2 rounded-full bg-[#4835F1]"
                 >
                     <p class="text-5xl font-bold">76</p>
                     <p class="text-xs text-white/40">of 100</p>
                 </div>
 
-                <div class="flex flex-col gap-y-1 items-center justify-center"><h1 class="text-xl">Great</h1>
+                <div class="flex flex-col items-center justify-center gap-y-1">
+                    <h1 class="text-xl">Great</h1>
                     <p class="text-center text-sm text-white/30">
                         You scored higher than 65% of the people who have taken
                         these tests.
-                    </p></div>
+                    </p>
+                </div>
             </section>
-            <section class="mt-4 mx-4">
+            <section class="mx-4 mt-4 md:w-3/4 md:py-6">
                 <h3 class="mb-4">Summary</h3>
                 <div class="flex flex-col gap-y-4">
                     <div
-                        class="bg-light-red/10 flex place-content-between rounded-2xl py-3 px-2"
+                        class="flex place-content-between rounded-2xl bg-rose-600/10 px-2 py-3"
                     >
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <img
-
                                 src="./public/icons/icon-reaction.svg"
                                 alt="reaction"
                             />
                             <p class="text-light-red">Reaction</p>
                         </div>
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <p>80</p>
                             <p class="text-black/30">/</p>
                             <p class="text-black/30">100</p>
                         </div>
                     </div>
                     <div
-                            class="bg-orangey-yellow/10 flex place-content-between rounded-2xl py-3 px-2"
+                        class="flex place-content-between rounded-2xl bg-orange-600/10 px-2 py-3"
                     >
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <img
-
-                                    src="./public/icons/icon-memory.svg"
-                                    alt="reaction"
+                                src="./public/icons/icon-memory.svg"
+                                alt="reaction"
                             />
                             <p class="text-orangey-yellow">memory</p>
                         </div>
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <p>92</p>
                             <p class="text-black/30">/</p>
                             <p class="text-black/30">100</p>
                         </div>
                     </div>
                     <div
-                            class="bg-green-teal/10 flex place-content-between rounded-2xl py-3 px-2"
+                        class="flex place-content-between rounded-2xl bg-green-800/10 px-2 py-3"
                     >
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <img
-
-                                    src="./public/icons/icon-verbal.svg"
-                                    alt="reaction"
+                                src="./public/icons/icon-verbal.svg"
+                                alt="reaction"
                             />
                             <p class="text-green-teal">verbal</p>
                         </div>
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <p>61</p>
                             <p class="text-black/30">/</p>
                             <p class="text-black/30">100</p>
                         </div>
                     </div>
                     <div
-                            class="bg-light-slate-blue/10 flex place-content-between rounded-2xl py-3 px-2"
+                        class="flex place-content-between rounded-2xl bg-blue-700/10 px-2 py-3"
                     >
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <img
-
-                                    src="./public/icons/icon-visual.svg"
-                                    alt="reaction"
+                                src="./public/icons/icon-visual.svg"
+                                alt="reaction"
                             />
                             <p class="text-light-slate-blue">visual</p>
                         </div>
-                        <div class="flex items-center gap-x-2 justify-center">
+                        <div class="flex items-center justify-center gap-x-2">
                             <p>73</p>
                             <p class="text-black/30">/</p>
                             <p class="text-black/30">100</p>
                         </div>
                     </div>
-                    <button class="bg-dark-grayish-blue cursor-pointer rounded-3xl text-white py-3 bg-linear-to-b from-persian-blue to-violet-blue">Continue</button>
+                    <button
+                        class="from-persian-blue to-violet-blue cursor-pointer rounded-3xl bg-gray-700 bg-linear-to-b py-3 text-white"
+                    >
+                        Continue
+                    </button>
                 </div>
             </section>
         </main>
